@@ -12,16 +12,12 @@ title: Contact
   <hr />
   <div class="contactContent">
     <p>
-      <strong>HeHe Labs Ltd:</strong><br />
-      Clarisse Iribagiza Abakunda<br />
-      clarisse@hehelabs.com
+      <strong>Joe Six</strong><br />
+      six@joe.com
       <hr />
-      <strong>Markets Merger Ltd:</strong><br />
-      Louis-Antoine Muhire<br />
-      muhirela@mergims.com
     </p>
   </div>
-  <form action="http://formspree.io/hello@michaelbumann.com" method="POST">
+  <form action="http://formspree.io/{{ site.social.email }}" method="POST">
   
     <input type="hidden" name="_next" value="//{{site.url}}/contact-thanks.html" />
     <label for="name">Name</label>    

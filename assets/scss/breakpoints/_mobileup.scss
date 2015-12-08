@@ -215,7 +215,7 @@ POST STYLING
 	.postTitle {
 		text-align: center;
 		margin-top: 2rem;
-		margin-bottom: 1rem;
+		margin-bottom: 0.1rem;
 	}
 
 	blockquote {
@@ -253,6 +253,7 @@ POST STYLING
 		color: lighten(black, 50%);
 		font-family: $sans-serif;
 		font-weight: 300;
+    margin-bottom: 1rem;
 	}
 
 	figure {

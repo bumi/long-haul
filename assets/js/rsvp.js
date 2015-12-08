@@ -33,7 +33,7 @@ $(function() {
     var email = form.find('input[name="email"]').val();
     if(email != '') {
       participant.set('email', email);
-      participant.set('gravatarHash', email);
+      participant.set('gravatarHash', MD5(email));
     }
     participant.save().then(function() {
       loadParticipants(form.parent('.rsvp'));

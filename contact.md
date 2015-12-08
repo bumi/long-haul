@@ -7,13 +7,9 @@ title: Contact
   <h1 class="pageTitle">Contact</h1>
   <div class="contactContent">
     <p>
-      <strong>HeHe Labs Ltd:</strong><br />
-      Clarisse Iribagiza Abakunda<br />
-      clarisse@hehelabs.com
+      <strong>Joe Six</strong><br />
+      joe@six.com
       <hr />
-      <strong>Markets Merger Ltd:</strong><br />
-      Louis-Antoine Muhire<br />
-      muhirela@mergims.com
     </p>
   </div>
   <form action="http://formspree.io/{{ site.social.email}}" method="POST">

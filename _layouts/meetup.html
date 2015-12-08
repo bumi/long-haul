@@ -9,7 +9,7 @@ layout: default
   {% endif %}
   <h1 class="postTitle">{{ page.title }}</h1>
   <p class="meta">
-    When: {{ page.date | date: '%B %d, %Y' }} 
+    When: {{ page.event_date | date: '%B %d, %Y' }} 
     |
     Where: {% if page.location && page.location.url %}
       <a href="{{page.location.url}}" class="location">{{ page.location.name }}</a>

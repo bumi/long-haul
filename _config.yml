@@ -1,8 +1,8 @@
-title: Kigali Online Payments Meetup
-description: The Online Payments Meetup is an informal event to discuss the state and the future of payments in Rwanda and the whole continent.
+title: Your knowledge sharing meetup
+description: We meet and share
 
-url: http://brianmaierjr.github.com/long-haul
-baseurl: "/long-haul"
+url: https://bumi.github.com/long-haul
+baseurl: "" # set this to the root of you site when deployed
 paginate_path: "posts/page:num/"
 
 markdown: redcarpet
@@ -22,6 +22,6 @@ social:
    email: hello@micahelbumann.com
 
 stamplay: 
-  app_id: 'kigalipaymentmeetup'
+  app_id: 'longhaulexample'
 
 google_analytics: ""

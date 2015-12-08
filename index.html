@@ -1,17 +1,17 @@
 ---
 layout: default
-title: Kigali Online Payments Meetup
+title: Knowledge sharing meetup
 ---
 
 <div class="home" id="home">
   <h1 class="pageTitle"></h1>
   <div class="">
     {% for post in paginator.posts %}
-      <div class="post">
+      <div class="post {{post.layout}}">
         <h3 class="postTitle"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         {% if post.layout == 'meetup' %}
           <p class="meta">
-            When: {{ post.date | date: '%B %d, %Y' }} 
+            When: {{ post.event_date | date: '%B %d, %Y' }} 
             |
             Where: 
             {% if post.location && post.location.url %}
@@ -20,6 +20,10 @@ title: Kigali Online Payments Meetup
               <span class="location">{{post.location.name}}</span>
             {% endif %}    
           </p>
+        {% else %}
+          <p class="meta">
+            {{ post.date | date: '%B %d, %Y' }} 
+          </p> 
         {% endif %}
 
         {% if post.truncate == true %}

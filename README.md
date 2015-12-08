@@ -54,3 +54,6 @@ The main settings can be found inside the `_config.yml` file:
 ## License
 
 This is [MIT](LICENSE) with no added caveats, so feel free to use this Jekyll theme on your site without linking back to me or using a disclaimer.
+
+--------
+made with <3 in Kigali Rwanda

@@ -16,7 +16,7 @@ It is ment to be used as a starting point for your meetup website.
 3. Clone it
 4. bundle install
 6. Run Jekyll `bundle exec jekyll serve -w`
-7. Run `bundle exec compass watch -r support-for`
+7. Run `bundle exec compass watch`
 8. Customize!
 
 ### How to use RSVP

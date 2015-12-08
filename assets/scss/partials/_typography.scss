@@ -37,14 +37,14 @@ h1, .h1 {
 
 @media (min-width: 43.75em) {
   h1, .h1 {
-    font-size: 2.5em; // 2.5x body copy size = 40px
+    font-size: 2em; // 2.5x body copy size = 40px
     line-height: 1.125;
   }
 }
 
 @media (min-width: 56.25em) {
   h1, .h1 {
-    font-size: 3em; // 3x body copy size = 48px 
+    font-size: 2.5em; // 2.5x body copy size = 40px
     line-height: 1.05; // keep to a multiple of the 20px line height and something more appropriate for display headings
   }
 }

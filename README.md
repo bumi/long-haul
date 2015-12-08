@@ -1,6 +1,8 @@
-Long Haul Meetup is a fork of the great [Long Haul jekyll theme](http://github.com/brianmaierjr/long-haul) that adds some functionality to create a website for a meetup. 
+Long Haul Meetup is a fork of the great [Long Haul jekyll theme](http://github.com/brianmaierjr/long-haul) that adds some functionality to create a website for a meetup or events.
 
-It is ment to be used as a starting point for your meetup website. 
+This repo is ment to be used as a starting point for your meetup website. Simply fork it and customize it.
+
+#### [Example page](https://bumi.github.io/long-haul/)
 
 ## Features
 

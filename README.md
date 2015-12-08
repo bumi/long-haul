@@ -39,6 +39,13 @@ Stamplay allows us to store and retrieve data using JavaScript.
 
 Have a look at the Stamplay [Quickstart](https://stamplay.com/docs/quickstart) and [JS docs](https://stamplay.com/docs/jssdk)
 
+### Deploy
+
+Before you deploy your site make sure to configure URL and paths correctly in `config.rb` and `_config.yml`.
+Then simply push to your GitHub gh-pages branch. ([more information about GitHub pages](http://pages.github.com/)) 
+
+Or simply use the generated site from the `_site` forlder and put it on your preferred hosting provider. Also checkout [5apps.com](http://5apps.com/) for HTML5 app deployment.
+
 ## Site Settings
 
 The main settings can be found inside the `_config.yml` file:

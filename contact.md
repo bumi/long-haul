@@ -14,7 +14,7 @@ title: Contact
   </div>
   <form action="//formspree.io/{{ site.social.email}}" method="POST">
   
-    <input type="hidden" name="_next" value="//{{site.url}}/contact-thanks.html" />
+    <input type="hidden" name="_next" value="{{site.url}}/contact-thanks.html" />
     <label for="name">Name</label>    
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>

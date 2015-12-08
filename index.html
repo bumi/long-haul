@@ -1,19 +1,35 @@
 ---
 layout: default
-title: Long Haul
+title: Kigali Online Payments Meetup
 ---
 
 <div class="home" id="home">
-  <h1 class="pageTitle">Recent Posts</h1>
-  <ul class="posts noList">
+  <h1 class="pageTitle"></h1>
+  <div class="">
     {% for post in paginator.posts %}
-      <li>
-        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
-        <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-        <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
-      </li>
+      <div class="post">
+        <h3 class="postTitle"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
+        {% if post.layout == 'meetup' %}
+          <p class="meta">
+            When: {{ post.date | date: '%B %d, %Y' }} 
+            |
+            Where: 
+            {% if post.location && post.location.url %}
+              <a href="{{post.location.url}}" class="location">{{ post.location.name }}</a>
+            {% elsif post.location %}
+              <span class="location">{{post.location.name}}</span>
+            {% endif %}    
+          </p>
+        {% endif %}
+
+        {% if post.truncate == true %}
+          <p class="description">{% if post.description %}{{ post.description | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
+        {% else %}
+          {{ post.content }}
+        {% endif %}
+      </div>
     {% endfor %}
-  </ul>
+  </div>
   <!-- Pagination links -->
   <div class="pagination">
     {% if paginator.previous_page %}

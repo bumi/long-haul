@@ -1,0 +1,24 @@
+
+@import "susy";
+
+.rsvp {
+	margin: 0 auto 2rem; 
+  .participants {
+    margin: 10px 0px;
+  }
+  .participant {
+    float: left;
+    margin: 10px 10px 10px 0;
+    .avatar { 
+      margin: 10px 5px 0 0;
+      vertical-align: middle;
+    }
+  }
+  .participants:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+}

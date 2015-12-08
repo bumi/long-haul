@@ -12,7 +12,7 @@ title: Contact
       <hr />
     </p>
   </div>
-  <form action="http://formspree.io/{{ site.social.email}}" method="POST">
+  <form action="//formspree.io/{{ site.social.email}}" method="POST">
   
     <input type="hidden" name="_next" value="//{{site.url}}/contact-thanks.html" />
     <label for="name">Name</label>    

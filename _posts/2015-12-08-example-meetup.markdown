@@ -4,6 +4,7 @@ title:  "Example Meetup"
 truncate: true
 meetup: "kigali-2015-12-23"
 event_date: 2015-12-23
+event_time: 8pm - 10pm
 location: 
   name: "The Office Kigali"
   url: "http://maps.google.com?q=Kigali"

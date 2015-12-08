@@ -11,8 +11,8 @@ title: Knowledge sharing meetup
         <h3 class="postTitle"><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
         {% if post.layout == 'meetup' %}
           <p class="meta">
-            When: {{ post.event_date | date: '%B %d, %Y' }} 
-            |
+            When: {{ post.event_date | date: '%B %d, %Y' }} - {{ post.event_time }}
+            <br />
             Where: 
             {% if post.location && post.location.url %}
               <a href="{{post.location.url}}" class="location">{{ post.location.name }}</a>

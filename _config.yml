@@ -2,7 +2,7 @@ title: Your knowledge sharing meetup
 description: We meet and share
 
 url: https://bumi.github.com/long-haul
-baseurl: "" # set this to the root of you site when deployed
+baseurl: "/long-haul" # set this to the root of you site when deployed
 paginate_path: "posts/page:num/"
 
 markdown: redcarpet

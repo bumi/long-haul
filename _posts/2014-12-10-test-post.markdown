@@ -17,10 +17,6 @@ Bahamontes lanterne rouge normandie belgium. Fred paris-nice arrivere, for omniu
 Kaperij lanterne rouge musette rund um koln bruges thor smash, geraardsbergen riis petacchi molteni pedaling squares. Virenque vande velde, valkenberg gutter pantani parcours gaul domestique, tilford campagnolo around madone. Bruyneel criterium ritte, gorgeous george the trousselier feed zone bruges nokere koerse, parcours gilbert garin? Anquetil valkenberg bettini cat among the pigeons.
 
 
-{% if page.meetup %}
-  {% include rsvp.html meetup=page.meetup %}
-{% endif %}
+{% if page.meetup %}{% include rsvp.html meetup=page.meetup %}{% endif %}
 
-{% if page.location && page.location.embeded_url %}
-  {% include location.html url=page.location.embeded_url %}
-{% endif %}
+{% if page.location && page.location.embeded_url %}{% include location.html url=page.location.embeded_url %}{% endif %}
